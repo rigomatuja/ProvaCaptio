@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaCaptio", "ProvaCaptio\ProvaCaptio.csproj", "{7C3A7BF0-FADB-441C-89E2-3E97F5F27F88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorTest", "ValidatorTest\ValidatorTest.csproj", "{5FAE4F31-1039-4195-8086-8C7401A3B927}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7C3A7BF0-FADB-441C-89E2-3E97F5F27F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C3A7BF0-FADB-441C-89E2-3E97F5F27F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C3A7BF0-FADB-441C-89E2-3E97F5F27F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAE4F31-1039-4195-8086-8C7401A3B927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAE4F31-1039-4195-8086-8C7401A3B927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAE4F31-1039-4195-8086-8C7401A3B927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAE4F31-1039-4195-8086-8C7401A3B927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

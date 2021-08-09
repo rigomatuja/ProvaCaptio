@@ -1,4 +1,6 @@
-﻿namespace ProvaCaptio.UseCases
+﻿using System;
+
+namespace ProvaCaptio.UseCases
 {
     public class ValidateLength : IValidationRule
     {
@@ -12,6 +14,7 @@
 
         public override bool Validate()
         {
+            Console.WriteLine($"Length >= {MINLENGTH}: {_pass.Length >= MINLENGTH}");
             return _pass.Length >= MINLENGTH;
         }
     }

@@ -8,7 +8,7 @@ namespace ProvaCaptio
         {
             Console.WriteLine("\nTechnical test - Password Validator");
             Console.WriteLine("---------------------------------------------");
-            Console.WriteLine("The Password must satisfy the next requirements:");
+            Console.WriteLine("The Password must satisfy at least 3 of the next requirements:");
             Console.WriteLine("At least one uppercase character is required.");
             Console.WriteLine("At least one lowercase character is required.");
             Console.WriteLine("At least one number is required.");

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace ProvaCaptio.UseCases
 {
@@ -13,6 +14,7 @@ namespace ProvaCaptio.UseCases
 
         public override bool Validate()
         {
+            Console.WriteLine($"Contain Number: {_pass.Any(char.IsNumber)}");
             return _pass.Any(char.IsNumber);
         }
     }

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace ProvaCaptio.UseCases
 {
@@ -13,6 +14,7 @@ namespace ProvaCaptio.UseCases
 
         public override bool Validate()
         {
+            Console.WriteLine($"Contain Lowercase: {_pass.Any(char.IsLower)}");
             return _pass.Any(char.IsLower);
         }
     }
