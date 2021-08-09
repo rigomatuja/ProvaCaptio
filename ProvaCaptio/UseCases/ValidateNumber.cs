@@ -13,7 +13,7 @@ namespace ProvaCaptio.UseCases
 
         public override bool Validate()
         {
-            return _pass.Any(char.IsDigit);
+            return _pass.Any(char.IsNumber);
         }
     }
 }
