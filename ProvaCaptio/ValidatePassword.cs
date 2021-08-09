@@ -45,10 +45,7 @@ namespace ProvaCaptio
                 faultLevel.Add((int)ErrorTypes.Length);
             else
                 faultLevel.RemoveAll(rule => rule == (int)ErrorTypes.Length);
-
-            foreach (var err in faultLevel) Console.WriteLine(err);
-
-
+            
             if (faultLevel.Count > 1)
             {
                 foreach (var error in faultLevel)
