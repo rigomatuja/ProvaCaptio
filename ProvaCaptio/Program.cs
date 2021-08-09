@@ -21,7 +21,7 @@ namespace ProvaCaptio
                 Console.WriteLine("Type a password:");
                 validator = new ValidatePassword(Console.ReadLine());
             }
-            
+
             Console.WriteLine($"Congratulations! Password '{validator.getPasswordValue()}' is correct.");
         }
     }
